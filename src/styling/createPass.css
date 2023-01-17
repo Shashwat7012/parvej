@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    align-items: center;
+    height: 70vh;
+}
+
+.innerForm{
+    width: 50vh;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgba(98, 98,98,0.24),
+     -10px -10px 20px rgba(111,110,110,0.322);
+     border-radius: 20px;
+     border-bottom: 10px solid rgb(46, 102, 254);
+}
+.head{
+    border-bottom: 3px solid rgba(0, 113, 225, 0.4);
+}
+
+.enter{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lab1{
+    margin: 20px 10px;
+    text-transform: capitalize;
+}
+.inp1{
+    border: none;
+    width: 100px;
+}
+
+.inp1::placeholder{
+    text-align: center;
+}
+
+.costom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pass{
+    margin:10px;
+    box-shadow: 5px 10px 20px rgba(98, 98,98,0.24),
+     -5px -10px 20px rgba(111,110,110,0.322);
+}
+.pass input{
+    font-size: 20px;
+}
+.pass input:focus{
+    outline: none;
+}
+.range{
+    display: flex;
+    align-items: center;
+}
+.range input{
+    width:30px;
+    height: 30px;
+    box-shadow: 5px 10px 20px rgba(98, 98,98,0.24),
+     -5px -10px 20px rgba(111,110,110,0.322);
+}
+
+.range input:focus{
+    outline: none;
+}
+
+.btn{
+    border: none;
+    background-color:rgb(113, 151, 253); ;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.btnBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.btnB{
+    margin: 20px;
+}
+.copy{
+    border: none;
+    background-color: white;
+}
+
